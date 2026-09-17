@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: dist
+          path: ./FilmRentalClient/dist
 
   deploy:
     runs-on: ubuntu-latest
